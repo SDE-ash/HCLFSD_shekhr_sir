@@ -1,0 +1,53 @@
+Test URLs (Through Gateway at Port 1111):
+Action	HTTP Method	URL
+Add course	POST	http://localhost:1111/courses/create
+Get course by ID	GET	http://localhost:1111/courses/{id}
+Add student	POST	http://localhost:1111/students
+Get student with courses	GET	http://localhost:1111/students/{id}/course
+
+
+{
+  "name": "Harsha",
+  "courseId": [1, 2]
+}
+
+
+
+✅ 1. Add Course
+Endpoint: POST http://localhost:1111/courses/create
+Request Body (JSON):
+
+
+{
+  "courseName": "Mathematics"
+}
+✅ 2. Get Course by ID
+Endpoint: GET http://localhost:1111/courses/1
+(No body required — just replace 1 with actual course ID)
+
+✅ 3. Add Student (with multiple course IDs)
+Endpoint: POST http://localhost:1111/students
+Request Body (JSON):
+
+
+{
+  "name": "Harsha",
+  "courseId": [1, 2]
+}
+1 and 2 are example course IDs that must exist in the Course table.
+
+✅ 4. Get Student With Courses
+Endpoint: GET http://localhost:1111/students/1/course
+(No body required — just replace 1 with actual student ID)
+Sample Response:
+
+
+{
+  "name": "Harsha",
+  "course": {
+    "id": 1,
+    "courseName": "Mathematics"
+  }
+}
+🔔 This returns only the first course from the list in your current implementation.
+If you want to return all courses for the student
