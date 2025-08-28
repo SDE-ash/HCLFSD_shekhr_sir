@@ -1,0 +1,23 @@
+
+docker pull nginx/nginx-ingress:latest-alpine
+
+docker run --name mynginx -d -p 8080:80 nginx
+--name mynginx → gives your container a name
+
+-d → detached mode (runs in background)
+
+-p 8080:80 → maps host port 8080 to container’s port 80
+
+Then open http://localhost:8080 — you’ll see the Nginx welcome page.
+
+📋 Check and Manage Containers
+docker ps → list running containers
+
+docker stop mynginx → stop the Nginx container
+
+docker start mynginx → restart it
+docker image ls
+
+docker rm mynginx → remove it (only if stopped)
+
+docker rmi nginx
