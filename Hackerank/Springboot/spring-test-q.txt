@@ -1,0 +1,40 @@
+Here is a list of the unique questions -->
+
+1. Spring Boot: Filter Microservice  
+   - Implement REST APIs to filter products by price range and sort by price.
+
+2. Spring Boot: GitHub Events API  
+   - Implement REST API to create, list, and retrieve GitHub events by ID and repository.
+
+3. Spring Boot: Stock Trades API  
+   - Implement REST API to create, list, retrieve, and restrict modification of stock trades.
+
+4. Spring Boot: Weather API  
+   - Implement REST API to create, list, retrieve, and delete weather data records.
+
+5. Spring Boot: Playlist Management APIs  
+   - Implement REST APIs to create, list, retrieve, and delete music playlists.
+
+6. Spring Boot: Track Information APIs  
+   - Implement REST APIs to manage music tracks: create, list, delete, and sort by title.
+
+7. Spring Boot: Trading Platform (Trader Management)  
+   - Implement REST APIs to register traders, update name and balance, and query by email.
+
+8. Spring Boot: Rest Controller Advice Setup (FizzBuzzController)  
+   - Implement global exception handling with custom exceptions and response codes.
+
+9. Spring Boot: Custom Request Validator (Employee Validator)  
+   - Implement validation for Employee object fields with specific rules and error messages.
+
+10. Spring Boot: Music Streaming Platform APIs  
+    - Implement REST APIs for managing artists, playlists, and tracks with full CRUD.
+
+11. Spring Boot: Sports Health Coaching APIs  
+    - Implement REST APIs for managing customers and coaches with relationships.
+
+12. Spring Boot: Artist Management APIs  
+    - Implement REST APIs to create, list, retrieve, and delete artists.
+
+13. Spring Boot: Music Track APIs  
+    - Implement REST APIs for music tracks including search by title and CRUD operations.
